@@ -3,6 +3,7 @@
   "proxy": "http://127.0.0.1:5000",
   "version": "0.1.0",
   "private": true,
+  "proxy":"http://radiant-paprenjak-11634d.netlify.app",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -23,7 +24,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm i",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
